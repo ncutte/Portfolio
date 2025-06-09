@@ -14,7 +14,9 @@
     <img src="images/mon-image.jpg" alt="Photo de profil" class="header-image">
     <div class="header-text">
       <h1>Bonjour, <br> Je m'appelle Nathanaël Cutté</h1>
-      <p>Je suis étudiant en BUT Informatique</p>
+      <p>Je suis étudiant en BUT Informatique,
+        Je recherche un stage
+      </p>
       <p>Passionné par le développement, les projets et la technologie</p>
     </div>
   </div>
@@ -23,7 +25,8 @@
 
   <nav>
     <a href="#about">À propos</a>
-    <a href="#experience">Expériences</a>
+    <a href="#diplomes">Diplômes</a>
+    <a href="#experiences">Expériences</a>
     <a href="#cv">CV</a>
     <a href="#projects">Projets</a>
     <a href="#skills">Compétences</a>
@@ -35,16 +38,39 @@
   <section id="about" style="margin-top: 100px;">
     <h2>À propos</h2>
     <p>Je suis actuellement en première année de BUT Informatique à l'IUT de Lannion. J'aime le développement web, l'algorithmique et la modélisation de données et le Crossfit. Je recherche un stage pour mettre en pratique mes compétences.</p>
+    
   </section>
+  
 
+<section id="diplomes">
+  <h2>Diplômes</h2>
+  <div class="card-list">
+    <div class="info-card">
+      <h3>2021 – 2024</h3>
+      <p><strong>Baccalauréat Technologique STI2D</strong><br>Option : SIN (Systèmes d’Information et Numérique)</p>
+    </div>
+    <div class="info-card">
+      <h3>2024 – Aujourd’hui</h3>
+      <p><strong>BUT Informatique</strong><br>1ère année à l’IUT de Lannion</p>
+    </div>
+  </div>
+</section> 
 
-  <section id="experience">
-    <h2>Expériences</h2>
-    <ul>
-      <li><strong>Avril 2025 :</strong>Stage d'observation d'Infirmier dans le services Hospitalier de Dinan(22)</li>
-      <li><strong>Août 2024 :</strong> Plonge, cuisine et service dans l'Hôpital de Dinan(22)</li>
-    </ul>
-  </section>
+<section id="experiences">
+
+  <h2>Expériences</h2>
+  <div class="card-list">
+    <div class="info-card">
+      <h3>Avril 2025</h3>
+      <p><strong>Stage d'observation Infirmier</strong><br>Service hospitalier, Dinan (22)</p>
+    </div>
+    <div class="info-card">
+      <h3>Août 2024</h3>
+      <p><strong>Plonge, cuisine & service</strong><br>Hôpital de Dinan (22)</p>
+    </div>
+  </div>
+</section>
+
   <section id="cv" class="cv-download">
     <h2>Télécharger / Voir mon CV</h2>
     <br>
@@ -54,54 +80,116 @@
       <iframe src="CV.pdf"></iframe>
     </div>
   </section>
+
+  
+
+
+
   <section id="projects">
   <h2>Projets</h2>
   <div class="projects">
-    <div class="project">
-      <img src="images/portfolio.png" alt="Site Web personnel" class="project-image">
-      <h3>Site Web personnel</h3>
-      <p>Réalisation d'un site web en HTML/CSS présentant mon parcours et mes projets.</p>
-    </div>
+    
     <div class="project">
       <img src="images/qcm01.png" alt="SAE UML et SQL" class="project-image">
       <h3>SAE : conception d'une base de données en UML</h3>
-      <p>Grâce à une image UML nous l'avons traduite en langage SQL.</p>
+      <p>Grâce à une image UML nous l'avons traduite en langage SQL et ensuite codée sur SQL Workbench.</p>
     </div>
     <div class="project">
       <img src="images/SiteJO.png" alt="Site JO Paris 2024" class="project-image">
       <h3>SAE : développement d'un site web sur les JO de Paris 2024</h3>
-      <p>Un site web sur les JO de Paris 2024 sur la discipline du BMX Racing.</p>
+      <p>Nous avons réaliser un site web sur les JO de Paris 2024 sur la discipline du BMX Racing.</p>
     </div>
 
   
     <div class="project">
       <img src="images/snake-example.gif" alt="Snake" class="Snake">
-      <h3>Jeu du Snake</h3>
+      <h3>SAE : Jeu du Snake</h3>
       <p>Lors de ce projet, nous avons dû réaliser le jeu du snake en plusieurs versions avec à chaque étape un nouveau défi à réaliser</p>
     </div>
 
     <div class="project">
-      <img src="images/projet-supplementaire.jpg" alt="Nouveau projet" class="project-image">
-      <h3>Nouveau projet</h3>
-      <p>Description du nouveau projet ajouté.</p>
+      <img src="images/portfolio.png" alt="Site Web personnel" class="project-image">
+      <h3>Site Web personnel</h3>
+      <p>Réalisation d'un site web en HTML/CSS présentant mon parcours et mes projets.</p>
     </div>
 
     <div class="project">
-      <img src="images/projet-supplementaire.jpg" alt="Nouveau projet" class="project-image">
-      <h3>Nouveau projet</h3>
-      <p>Description du nouveau projet ajouté.</p>
+      <img src="images/kmeans.png" alt="Nouveau projet" class="project-image">
+      <h3>SAE : Exploration algorithmique d'un problème</h3>
+      <p>
+     Le projet constitut à étudier et réaliser des algorithmes,
+    avec l'algorithme des K plus proches voisins (k-means)</p>
+    </div>
+
+    <div class="project">
+      <img src="images/APache.jpg" alt="Nouveau projet" class="project-image">
+      <h3>SAE : Installation de services réseau</h3>
+      <p>
+
+     nous avons dù apprendre à configurer un serveur web Apache avec PHP
+     et MySQL
+      </p>
     </div>
   </div>
 </section>
 
+  
+
   <section id="skills">
-    <h2>Compétences</h2>
-    <ul>
-      <li><strong>Langages :</strong> C, HTML, CSS, SQL, Python</li>
-      <li><strong>Outils :</strong> Git, GitHub, GitLab, VSCode, Figma, Mindview</li>
-      <li><strong>Modélisation :</strong> UML, MCD/MLD</li>
-    </ul>
-  </section>
+  <h2>Compétences</h2>
+  <div class="skills-grid">
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="skill-bar"><div class="skill-level" style="width: 60%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>CSS</h3>
+      <div class="skill-bar"><div class="skill-level" style="width: 45%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <div class="skill-bar"><div class="skill-level" style="width: 40%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>SQL</h3>
+      <div class="skill-bar"><div class="skill-level" style="width: 60%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>Python</h3>
+      <div class="skill-bar"><div class="skill-level" style="width: 35%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>UML</h3>
+      <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
+    </div>
+  </div>
+
+<div class="soft-skills">
+  <h3>Soft Skills</h3>
+  <ul>
+    <li>Travail en équipe</li>
+    <li>Esprit d’analyse</li>
+    <li>Autonomie</li>
+    <li>Communication</li>
+    <li>Curiosité technologique</li>
+    <li>Organisation</li>
+  </ul>
+</div>
+
+<div class="tools-used">
+  <h3>Outils utilisés</h3>
+  <ul>
+    <li>Git & GitHub / GitLab</li>
+    <li>VS Code</li>
+    <li>Figma</li>
+    <li>MindView</li>
+    <li>SQL Workbench</li>
+  </ul>
+</div>
+
+
+</section>
+
   
   <section id="veille">
     <h2>Veille technologique</h2>
@@ -118,6 +206,17 @@
       <img src="images/github.png" alt="Logo GitHub">
       <p>GitHub</p>
     </a>
+
+    <a href="https://ent.univ-rennes1.fr/f/welcome/normal/render.uP"target="_blank" class="lien-item" aria-label="iut-lannion">
+      <img src="images/Logo-ecoles-de-journalisme-reconnues.png" alt="Logo iut-lannion">
+      <p>iut-lannion</p>
+    </a>
+
+     <a href="https://butinfo.fr/" target="_blank"  class="lien-item" aria-label="prog-but-info">
+     <img src="images/LogoBUT_IUTV-1-300x300.png" alt="Logo butinfo">
+     <p>Programme national <br>du BUT Informatique</p>
+     </a>
+    
   </div>
 </section>
   </div>
@@ -136,6 +235,7 @@
   <footer>
     <p>© 2025 - Portfolio Nathanaël Cutté - Email personnel:<a href="mailto:nathcutte@gmail.com" > nathcutte@gmail.com </a> </p>
     <p>Email étudiant: <a href="mailto:nathanael.cutte@etudiant.univ-rennes.fr">nathanael.cutte@etudiant.univ-rennes.fr</a></p>
+    <p>Téléphone: 02 96 32 02 50</p>
   </footer>
  
 </body>
