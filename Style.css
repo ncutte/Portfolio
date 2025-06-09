@@ -93,6 +93,139 @@
       max-width: 1000px;
       margin: auto;
     }
+    #diplomes, #liens-iut {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#diplomes h2, #liens-iut h2 {
+  margin-bottom: 1rem;
+  text-align: autp;
+}
+
+#diplomes ul, #liens-iut ul {
+  list-style-type: disc;
+  
+}
+
+#skills {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill {
+  background: var(--card-bg);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill h3 {
+  margin-bottom: 0.5rem;
+}
+
+.skill-bar {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 12px;
+}
+
+.skill-level {
+  height: 100%;
+  background: #5271ff;
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+.soft-skills {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.soft-skills h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+.soft-skills ul {
+  list-style-type: '✔️ ';
+  padding-left: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+.tools-used {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tools-used h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+.tools-used ul {
+  list-style-type: '🛠️ ';
+  padding-left: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+#diplomes {
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+#experiences {
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem 1rem;
+
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.info-card {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card h3 {
+  color: #5271ff;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
     
   
 
